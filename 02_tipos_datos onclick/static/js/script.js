@@ -5,9 +5,9 @@ let saludo = "Holi, profe"; // string - de texto
 let meEstrese = true; // boolean - verdadero o falso (0,1)
 let contar = [1, 2, 3, 4]; // array (arreglo) - lista de elementos
 let yo = { nombre: "Elisa", edad: 16 }; // Object - diccionario
-let valorIndefinido; // undefined - sin valor asignado
-let valorNulo = null;// null - valor nulo 
-const mes = "Junio"; // constante - no varia
+let valorIndefinidito; // undefined - sin valor asignado
+let valorNulito = null;// null - valor nulo 
+const mescumpleaños = "Noviembre"; // constante - no varia
 
 //desafio 
 let usuario = { nombre: "Elisa", edad: 16 };
@@ -27,7 +27,7 @@ function mostrarSaludo() {
   alert("saludo: " + saludo);
 }
 
-function mostrarBooleano() {
+function mostrarMeEstrese() {
   alert("¿me estrese?: " + meEstrese);
 }
 
@@ -35,26 +35,26 @@ function mostrarContar() {
   alert("¿como se cuenta? : " + contar);
 }
 
-function mostrarObjeto() {
-  alert("Objeto persona: " + JSON.stringify(objetoPersona));
+function mostrarYo() {
+  alert("Objeto persona: " + JSON.stringify(yo));
 }
 
-function mostrarIndefinido() {
-  alert("Valor indefinido: " + valorIndefinido);
+function mostrarIndefinidito() {
+  alert("indefinido: " + valorIndefinidito);
 }
 
-function mostrarNulo() {
-  alert("Valor nulo: " + valorNulo);
+function mostrarNulito() {
+  alert("nulo: " + valorNulito);
 }
 
 function mostrarConstante() {
-  alert("Constante mes: " + mes);
+  alert("mes cumpleaños: " + mescumpleaños);
 }
 
 //desafio 
 
 function mostrarUsuario() {
-  alert("Usuario: " + usuario);
+  alert("Usuario: " +  JSON.stringify(usuario));
 }
 
 function mostrarColores() {
