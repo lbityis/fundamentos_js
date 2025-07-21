@@ -15,6 +15,7 @@ let colores = ["rosado"," magenta"," fucsia"];
 let esEstudiante = true;
 
 // Funciones para mostrar cada valor con alert()
+
 function mostrarDiaCumpleaños() {
   alert("dia de cumpleaños: " + diaCumpleaños);
 }
