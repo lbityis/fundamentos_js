@@ -21,6 +21,7 @@ function par() {
             resultado += ` ${i}`
         }
     } alert(resultado);
+    
 }
 
 /* 7 Bucle for: Contar letras de una palabra
@@ -61,6 +62,7 @@ function numerosImpares() {
         if (i % 2 != 0) {
             respuesta += i
             largoImpar += ` + ${i}`
+            console.log(i)
         }
     }
     respuesta += 1
